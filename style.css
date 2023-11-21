@@ -31,10 +31,12 @@ button {
     height: 50px;
 }
 
-@media (min-width:200px) and (max-width: 400px) {
-    div{
+@media (min-width:100px) and (max-width: 400px) {
+    div { 
         height: 700px;
         width: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
 
